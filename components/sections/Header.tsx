@@ -51,9 +51,9 @@ export default function Header() {
             <button className="hidden md:flex items-center text-gray-700 hover:text-gray-900 transition-colors px-2 py-1">
               <ShoppingCart className="w-5 h-5" />
             </button>
-            <a href="#" className="text-sm text-gray-700 hover:text-gray-900 transition-colors px-2 py-1">
+            <Link href="/auth/signin" className="text-sm text-gray-700 hover:text-gray-900 transition-colors px-2 py-1">
               Log in
-            </a>
+            </Link>
             <a
               href="/auth/signup"
               className="hidden sm:inline-flex items-center justify-center px-4 py-1.5 text-sm font-medium text-pmi-purple border border-pmi-purple rounded-md hover:bg-pmi-purple hover:text-white transition-colors"
