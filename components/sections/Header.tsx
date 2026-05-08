@@ -55,7 +55,7 @@ export default function Header() {
               Log in
             </a>
             <a
-              href="#"
+              href="/auth/signup"
               className="hidden sm:inline-flex items-center justify-center px-4 py-1.5 text-sm font-medium text-pmi-purple border border-pmi-purple rounded-md hover:bg-pmi-purple hover:text-white transition-colors"
             >
               Register
